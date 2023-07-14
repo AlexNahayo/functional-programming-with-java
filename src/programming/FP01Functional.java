@@ -18,11 +18,5 @@ public class FP01Functional {
                 .forEach(System.out::println);
     }
 
-    private static void printSquareOfEvenNumbersInListFunctional(List<Integer> numbers) {
-        numbers.stream()
-                .filter(number -> number % 2 == 0)
-                .map(number -> number * 2)
-                .forEach(System.out::println);
-    }
 
 }
