@@ -13,6 +13,7 @@ public class FP02Exercises {
         System.out.println(lengthOfCourseTitleList(courses));
     }
 
+    //Exercise 12
     private static int  squareNumberInListAndSum(List<Integer> numbers){
        return numbers.stream()
                 .map(number-> number*number)
@@ -45,7 +46,7 @@ public class FP02Exercises {
         numbers.stream().sorted().forEach(System.out::println);
     }
 
-    private static void  sortAndDistictNumberInAList(List<Integer> numbers){
+    private static void  sortAndDistinctNumberInAList(List<Integer> numbers){
         numbers.stream().distinct().sorted().forEach(System.out::println);
     }
 
